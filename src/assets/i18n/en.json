@@ -1,0 +1,26 @@
+{
+    "task": {
+        "title": "Title",
+        "description": "Description",
+        "dueDate": "Due Date",
+        "currentState": "Current State",
+        "states": {
+            "new": "New",
+            "active": "Active",
+            "resolved": "Resolved",
+            "closed": "Closed"
+        },
+        "notes": "Notes",
+        "edit": "Edit",
+        "delete": "Delete",
+        "btnComplete": "Complete"
+    },
+    "message": {
+        "confirmDeleteTask": "Are you sure you want to delete this task?",
+        "success": "The operation was completed successfully.",
+        "taskCreated": "Task created successfully.",
+        "taskUpdated": "Task updated successfully.",
+        "clientError": "An error occurred while processing your request. Please try again later.",
+        "serverError": "An error occurred while processing your request. Please try again later."
+    }
+}

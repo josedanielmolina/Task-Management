@@ -1,0 +1,27 @@
+<div class="task-list container mt-4">
+    <div class="text-center mb-4">
+        <img src="assets/logo.png" alt="Falck Logo" class="logo" style="width: 60px; height: auto;">
+        <h2>Tasks Management</h2>
+    </div>
+
+    <div class="mb-3 text-center">
+        <button class="btn btn-success" (click)="addTask()">Add Task</button>
+    </div>
+
+    <div class="row">
+        <div class="col-12" *ngFor="let task of tasks">
+            <app-task [task]="task" (edit)="editTask($event)" (delete)="deleteTask($event)"
+                (complete)="completeTask($event)" class="card shadow-sm mb-3 p-3">
+            </app-task>
+        </div>
+    </div>
+
+    <div class="pagination d-flex justify-content-center mt-4">
+        <button class="btn btn-outline-primary me-2" (click)="prevPage()"
+            [disabled]="!pagination.prev">Previous</button>
+        <span class="align-self-center">Page {{ currentPage }} of {{ totalPages }}</span>
+        <button class="btn btn-outline-primary ms-2" (click)="nextPage()" [disabled]="!pagination.next">Next</button>
+    </div>
+</div>
+
+<app-loading [loading]="loading"></app-loading>

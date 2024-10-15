@@ -1,0 +1,161 @@
+{
+  "tasks": [
+    {
+      "title": "Implement User Authentication",
+      "description": "Develop user authentication functionality.",
+      "dueDate": "2024-10-13T18:35:30.291Z",
+      "notes": [
+        "Research secure authentication methods",
+        "Implement password hashing"
+      ],
+      "completed": true,
+      "stateHistory": [
+        {
+          "state": "new",
+          "date": "2023-12-03"
+        },
+        {
+          "state": "active",
+          "date": "2023-12-07"
+        },
+        {
+          "state": "resolved",
+          "date": "2024-10-13"
+        },
+        {
+          "state": "closed",
+          "date": "2024-10-13"
+        },
+        {
+          "state": "active",
+          "date": "2024-10-13"
+        },
+        {
+          "state": "closed",
+          "date": "2024-10-13T18:35:30.291Z"
+        },
+        {
+          "state": "active",
+          "date": "2024-10-13"
+        },
+        {
+          "state": "closed",
+          "date": "2024-10-13T18:36:01.609Z"
+        },
+        {
+          "state": "closed",
+          "date": "2024-10-14"
+        },
+        {
+          "state": "closed",
+          "date": "2024-10-14"
+        },
+        {
+          "state": "closed",
+          "date": "2024-10-14"
+        },
+        {
+          "state": "closed",
+          "date": "2024-10-14"
+        },
+        {
+          "state": "closed",
+          "date": "2024-10-14"
+        },
+        {
+          "state": "closed",
+          "date": "2024-10-14"
+        },
+        {
+          "state": "resolved",
+          "date": "2024-10-14T15:38:15.087Z"
+        },
+        {
+          "state": "closed",
+          "date": "2024-10-14T15:38:25.503Z"
+        },
+        {
+          "state": "closed",
+          "date": "2024-10-14T16:11:56.873Z"
+        },
+        {
+          "state": "closed",
+          "date": "2024-10-14T19:28:25.176Z"
+        },
+        {
+          "state": "closed",
+          "date": "2024-10-15T00:36:07.764Z"
+        }
+      ],
+      "id": "85e8"
+    },
+    {
+      "title": "Write API Documentation",
+      "description": "Document the RESTful API for external developers.",
+      "dueDate": "2023-12-30",
+      "completed": true,
+      "stateHistory": [
+        {
+          "state": "new",
+          "date": "2023-12-04"
+        },
+        {
+          "state": "active",
+          "date": "2023-12-08"
+        },
+        {
+          "state": "closed",
+          "date": "2024-10-14T14:29:37.755Z"
+        }
+      ],
+      "notes": [
+        "Use Swagger/OpenAPI for documentation",
+        "Provide clear examples"
+      ],
+      "id": "875d"
+    },
+    {
+      "title": "Bug Fixes and Testing",
+      "description": "Address reported bugs and perform thorough testing.",
+      "dueDate": "2024-01-05",
+      "completed": true,
+      "stateHistory": [
+        {
+          "state": "new",
+          "date": "2023-12-05"
+        },
+        {
+          "state": "active",
+          "date": "2023-12-09"
+        },
+        {
+          "state": "closed",
+          "date": "2024-10-14T16:06:35.549Z"
+        }
+      ],
+      "notes": [
+        "Create test cases for critical scenarios",
+        "Perform regression testing"
+      ],
+      "id": "0117"
+    }
+  ],
+  "states": [
+    {
+      "name": "new",
+      "id": "7f52"
+    },
+    {
+      "name": "active",
+      "id": "8419"
+    },
+    {
+      "name": "resolved",
+      "id": "3a99"
+    },
+    {
+      "name": "closed",
+      "id": "0a8c"
+    }
+  ]
+}
