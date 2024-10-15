@@ -1,27 +1,80 @@
-# TaskManagement
+# Task Management- Proyecto Angular 18 con JSON Server
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
+Esta aplicación de Task Management está desarrollada con Angular 18 y utiliza JSON Server como backend simulado. Ha sido creada como parte de una prueba técnica para un proceso de selección.
 
-## Development server
+## Requisitos Previos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Asegúrate de tener instalado lo siguiente antes de comenzar:
 
-## Code scaffolding
+- Node.js (versión 18 o superior)
+- npm (generalmente viene con Node.js)
+- Angular CLI (versión 18)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalación
 
-## Build
+1. Clona este repositorio:
+   ```
+   git clone https://github.com/josedanielmolina/Task-Management.git
+   ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Navega hasta el directorio del proyecto:
+   ```
+   cd task-management
+   ```
 
-## Running unit tests
+3. Instala las dependencias, incluyendo JSON Server:
+   ```
+   npm install
+   npm install json-server --save-dev
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Configuración de JSON Server
 
-## Running end-to-end tests
+Este proyecto utiliza JSON Server para simular una API REST. Los datos se encuentran en el archivo `db.json` en la raíz del proyecto.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Para iniciar JSON Server:
 
-## Further help
+```
+npm run database
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Esto iniciará el servidor en `http://localhost:3000`.
+
+## Desarrollo
+
+Para iniciar el servidor de desarrollo de Angular:
+
+```
+ng serve
+```
+
+Navega a `http://localhost:4200/` en tu navegador. La aplicación se recargará automáticamente si cambias alguno de los archivos fuente.
+
+## Compilación
+
+Para compilar el proyecto para producción:
+
+```
+ng build
+```
+
+Los artefactos de compilación se almacenarán en el directorio `dist/`.
+
+## Pruebas
+
+Para ejecutar pruebas unitarias:
+```
+ng test
+```
+
+## Tecnologías Utilizadas
+
+- Angular 18
+- TypeScript
+- JSON Server
+- RxJS
+- Bootstrap 5
+
+## Autor
+
+Jose Daniel Molina
